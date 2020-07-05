@@ -1,3 +1,5 @@
+
+/*===============banner part css ========*/
 .color-bg{
     background-color:#fceae8;
 }
@@ -15,4 +17,35 @@
     border: none;
     border-radius:8px;
     cursor: pointer;
+}
+/*================categories part css================*/
+.cat1{
+    background-color:orange;
+}
+.cat2{
+    background-color:#ff589b;
+}
+.cat3{
+    background-color:blue;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 30px;
+    border-radius:15px;
+}
+.categories h1{
+  color: #fff;
+}
+.categories img{
+    width:100px;
+}
+/*================ shoes part css================*/
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+/*================ backpack part css================*/
+.card-footer{
+    border:none;
+    background-color:rgba(255, 255, 255, 0.87);
+    box-shadow: 5px 5px 10px lightgray;
 }
