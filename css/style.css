@@ -1,7 +1,19 @@
 
 .container{
-    margin-bottom: 100px;
+    margin-bottom:80px;
 }
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+    color: #ff136f;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#000;
+    padding-left:25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff136f;
+}
+
 /*===============banner part css ========*/
 .color-bg{
     background-color:#fceae8;
@@ -49,6 +61,23 @@
 /*================ backpack part css================*/
 .card-footer{
     border:none;
-    background-color:rgba(255, 255, 255, 0.87);
-    box-shadow: 5px 5px 10px lightgray;
+    background:transparent;
+}
+/*================ subscribe part css================*/
+#subscribe{
+    height:300px;
+}
+#subscribe input{
+    margin-bottom: 5px;
+}
+#subscribe h6{
+    color: gray;
+
+}
+footer {
+    text-align: center;
+
+}
+footer a{
+    color: #ff136f;
 }
